@@ -1,16 +1,9 @@
 public class Hello {
-    public statis void main(String[] args) {
+    public static void main(String[] args) {
        System.out.println("vs Code is Awesome"); 
-
-       greeting("Git");
     }
 
-    public static void greeting(String name) {
-        System.out.println("Welcome " + name);
+    public static void message() {
+        System.out.println("Horray!!! Now we can able to contribute on open source...");
     }
-
-    public static void greeting(String name) {
-        System.out.println("Welcome " + name);
-    }
-
 }
